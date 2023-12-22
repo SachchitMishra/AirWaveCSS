@@ -242,3 +242,12 @@ h6 .badge
     text-align: center; 
     align-items: center;
 }
+
+.rating
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;  
+    text-align: center; 
+}
