@@ -103,6 +103,7 @@ mark
 {
     background-color: yellow;
     padding: 10px;
+    color: black; 
 }
 
 .warning-border-radius
@@ -110,6 +111,7 @@ mark
     background-color: yellow;
     padding: 10px;
     border-radius: 5px;
+    color: black;
 }
 
 .nav-bar-white
@@ -250,4 +252,20 @@ h6 .badge
     font-weight: bold;
     padding: 10px;  
     text-align: center; 
+}
+
+/* Dark mode */
+.accordion-drk
+{
+    background-color: rgb(43, 43, 43);
+    padding: 5px;
+}
+
+.card-drk
+{
+    background-color: rgb(43,43,43);
+    color: white;
+    padding: 10px;
+    text-align: center; 
+    align-items: center;
 }
