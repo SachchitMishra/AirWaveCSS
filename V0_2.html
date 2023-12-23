@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>V 0.2 (code)</title>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div class="gradient-red-to-blue-bg">
+            <nav class="nav-bar-black">
+                <a href="index.html"><span class="gradient-blue-to-darkblue">AirWaveCSS</span></a>
+                <a href="docs.html" class="nav-bar-option-dark" style="margin-right: auto;">Docs</a>
+        </nav>
+        </div>
+        <br>
+        <h2>Copy this and paste it in your style.css</h2>
+        <code>
+            body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .gradient-red-to-blue
+            {
+                background: linear-gradient(#e66465, #9198e5);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            .gradient-blue-to-darkblue
+            {
+                background: linear-gradient(#00ddff, #0400ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            .gradient-red-to-blue-bg
+            {
+                background: linear-gradient(#e66465, #9198e5);
+                padding: 10px;
+            }
+
+            .gradient-blue-to-darkblue-bg
+            {
+                background: linear-gradient(#00ddff, #0400ff);
+                padding: 10px;
+            }
+
+            /* Marks */
+            mark
+            {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .mark-cyan
+            {
+                background: cyan;
+            }
+
+            .mark-blue
+            {
+                background: blue;
+                color: white;
+            }
+
+            .mark-red
+            {
+                background: red;
+            }
+
+            .mark-green
+            {
+                background: green;
+                color: white;
+            }
+
+            .mark-light-green
+            {
+                background: yellowgreen;
+            }
+
+            .button, .button-hover-effect-black, .button-hover-effect-blue
+            {
+                font-size: 16px;
+                line-height: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: var(--black);
+                padding: 8px 32px;
+                border-radius: 2px;
+                outline: 2px solid var(--black);
+                cursor: pointer;
+                transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.5), box-shadow 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.5);
+                width: fit-content;
+                background: var(--white);
+                margin: 8px 0 8px 0;
+                border-radius: 5px;
+            }
+
+            .button-hover-effect-black:hover
+            {
+                background-color: black;
+                border-color: white;
+                color: white;
+            }
+
+            .button-hover-effect-blue:hover
+            {
+                background-color: blue;
+                border-color: white;
+                color: white;
+            }
+
+
+
+            .warning
+            {
+                background-color: yellow;
+                padding: 10px;
+                color: black; 
+            }
+
+            .warning-border-radius
+            {
+                background-color: yellow;
+                padding: 10px;
+                border-radius: 5px;
+                color: black;
+            }
+
+            .nav-bar-white
+            {
+                background-color: white;
+                padding: 10px;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .nav-bar-black
+            {
+                background-color: #333;
+                padding: 10px;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .nav-bar-blue
+            {
+                background-color: blue;
+                padding: 10px;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .nav-bar-option-btn-white
+            {
+                background-color: rgb(211, 211, 211);
+                padding: 7px;
+                text-decoration-line: none;
+                border-radius: 5px;
+            }
+
+            .nav-bar-option-light
+            {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                color: black;
+                text-decoration: none;
+            }
+
+            .nav-bar-option-dark
+            {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+            }
+
+            .nav-logo
+            {
+                width: 46px;
+                height: 46px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+
+            h1 .badge
+            {
+                background-color: rgba(174, 167, 167, 0.844);
+                padding: 7px;
+                border-radius: 10px;
+            }
+
+            h2 .badge
+            {
+                background-color: rgba(174, 167, 167, 0.844);
+                padding: 7px;
+                border-radius: 10px;
+            }
+
+            h3 .badge
+            {
+                background-color: rgba(174, 167, 167, 0.844);
+                padding: 7px;
+                border-radius: 10px;
+            }
+
+            h4 .badge
+            {
+                background-color: rgba(174, 167, 167, 0.844);
+                padding: 7px;
+                border-radius: 10px;
+            }
+
+            h5 .badge
+            {
+                background-color: rgba(174, 167, 167, 0.844);
+                padding: 7px;
+                border-radius: 10px;
+            }
+
+            h6 .badge
+            {
+                background-color: rgba(174, 167, 167, 0.844);
+                padding: 7px;
+                border-radius: 10px;
+            }
+
+            .accordion
+            {
+                background-color: rgb(197, 196, 196);
+                padding: 5px;
+            }
+
+            .accordion-open
+            {
+                cursor: pointer;
+            }
+
+            .accordion-item
+            {
+                padding: 2.5px;
+            }
+
+            .card
+            {
+                background-color: rgb(197, 196, 196);
+                padding: 10px;
+                text-align: center; 
+                align-items: center;
+            }
+
+            .rating
+            {
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                padding: 10px;  
+                text-align: center; 
+            }
+
+            .accordion-drk
+            {
+                background-color: rgb(43, 43, 43);
+                padding: 5px;
+            }
+
+            .card-drk
+            {
+                background-color: rgb(43,43,43);
+                color: white;
+                padding: 10px;
+                text-align: center; 
+                align-items: center;
+            }
+        </code>
+    </body>
+</html>

@@ -64,8 +64,6 @@ mark
     background: yellowgreen;
 }
 
-/* Buttons/<a> tag */
-
 .button, .button-hover-effect-black, .button-hover-effect-blue
 {
     font-size: 16px;
@@ -254,7 +252,6 @@ h6 .badge
     text-align: center; 
 }
 
-/* Dark mode */
 .accordion-drk
 {
     background-color: rgb(43, 43, 43);
