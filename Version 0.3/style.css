@@ -325,6 +325,7 @@ h6 .badge
 .yellow-bg
 {
     background-color: #ddff00;
+    padding: 5px;
 }
 
 .blue-bg
@@ -340,4 +341,25 @@ h6 .badge
 .green-bg
 {
     background-color: #2aa700;
+    padding: 1px;
+}
+
+.small-number-input
+{
+    width: 30px;
+}
+
+.normal-number-input
+{
+    width: 50px;
+}
+
+.big-input
+{
+    width: 230px;   
+}
+
+.huge-input
+{
+    width: 250px;   
 }
