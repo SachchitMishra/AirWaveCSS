@@ -95,7 +95,11 @@ mark
     color: white;
 }
 
-
+.white-button:hover
+{
+    background-color: black;
+    color: white;
+}
 
 .warning
 {
